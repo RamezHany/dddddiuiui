@@ -213,17 +213,17 @@ export default function Home() {
             {/* أزرار التنقل */}
             <button
               onClick={() => setActiveProduct((prev) => (prev === 0 ? products.length - 1 : prev - 1))}
-              className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/20 hover:bg-white/30 rounded-full p-2 backdrop-blur-sm transition-all"
+              className="absolute left-2 md:left-8 top-1/2 -translate-y-1/2 z-20 bg-amber-600/90 hover:bg-amber-500 rounded-full p-3 md:p-4 backdrop-blur-sm transition-all shadow-lg"
               aria-label="المنتج السابق"
             >
-              <ChevronDown className="w-6 h-6 text-white rotate-90" />
+              <ChevronDown className="w-6 h-6 md:w-8 md:h-8 text-white rotate-90" />
             </button>
             <button
               onClick={() => setActiveProduct((prev) => (prev === products.length - 1 ? 0 : prev + 1))}
-              className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/20 hover:bg-white/30 rounded-full p-2 backdrop-blur-sm transition-all"
+              className="absolute right-2 md:right-8 top-1/2 -translate-y-1/2 z-20 bg-amber-600/90 hover:bg-amber-500 rounded-full p-3 md:p-4 backdrop-blur-sm transition-all shadow-lg"
               aria-label="المنتج التالي"
             >
-              <ChevronDown className="w-6 h-6 text-white -rotate-90" />
+              <ChevronDown className="w-6 h-6 md:w-8 md:h-8 text-white -rotate-90" />
             </button>
 
             <div className="relative h-full flex flex-col md:flex-row">
