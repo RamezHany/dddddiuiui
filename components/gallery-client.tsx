@@ -25,55 +25,55 @@ export default function GalleryClient() {
   const galleryImages: GalleryImage[] = [
     {
       id: 1,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://res.cloudinary.com/dduxyvs3x/image/upload/v1741705116/IMG-20250115-WA0158_-_Digital_Marketing_amng6q.jpg",
       alt: "Date palm trees in Siwa Oasis",
       category: "farms"
     },
     {
       id: 2,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://res.cloudinary.com/dduxyvs3x/image/upload/v1741704914/IMG-20250304-WA0048_-_Digital_Marketing_fl7ire.jpg",
       alt: "Premium Medjool dates packaging",
       category: "products"
     },
     {
       id: 3,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://res.cloudinary.com/dduxyvs3x/image/upload/v1741704908/IMG-20250304-WA0045_-_Digital_Marketing_wvmld6.jpg",
       alt: "Date harvesting process",
       category: "production"
     },
     {
       id: 4,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://res.cloudinary.com/dduxyvs3x/image/upload/v1741704912/IMG-20250304-WA0038_-_Digital_Marketing_ttsil5.jpg",
       alt: "Siwa dates on display",
       category: "products"
     },
     {
       id: 5,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://res.cloudinary.com/dduxyvs3x/image/upload/v1741705116/IMG-20250115-WA0159_-_Digital_Marketing_wwn1wy.jpg",
       alt: "Aerial view of date palm farm",
       category: "farms"
     },
     {
       id: 6,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://res.cloudinary.com/dduxyvs3x/image/upload/v1741705116/IMG-20250115-WA0155_-_Digital_Marketing_jojmgg.jpg",
       alt: "Date sorting and quality control",
       category: "production"
     },
     {
       id: 7,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://res.cloudinary.com/dduxyvs3x/image/upload/v1741704910/IMG-20250304-WA0044_-_Digital_Marketing_uhn6fw.jpg",
       alt: "Mazaq dates close-up",
       category: "products"
     },
     {
       id: 8,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://res.cloudinary.com/dduxyvs3x/image/upload/v1741705115/IMG-20250115-WA0156_-_Digital_Marketing_pwmjrh.jpg",
       alt: "Irrigation system in date farm",
       category: "farms"
     },
     {
       id: 9,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://res.cloudinary.com/dduxyvs3x/image/upload/v1741704908/IMG-20250304-WA0045_-_Digital_Marketing_wvmld6.jpg",
       alt: "Date packaging line",
       category: "production"
     },

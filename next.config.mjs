@@ -12,7 +12,7 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
-    domains: ['v0.blob.com'],
+    domains: ['v0.blob.com', 'res.cloudinary.com'],
   },
   experimental: {
     webpackBuildWorker: true,

@@ -60,7 +60,7 @@ export default function Home() {
         <div className="flex items-center justify-between p-4">
           <div className="flex items-center gap-2">
             <Image
-              src="/placeholder.svg?height=40&width=40"
+              src="https://res.cloudinary.com/dduxyvs3x/image/upload/v1741704914/IMG-20250304-WA0048_-_Digital_Marketing_fl7ire.jpg"
               alt="شعار سيوه بالم"
               width={40}
               height={40}
@@ -106,7 +106,7 @@ export default function Home() {
           <div className="flex justify-between items-center mb-12">
             <div className="flex items-center gap-2">
               <Image
-                src="/placeholder.svg?height=40&width=40"
+                src="https://res.cloudinary.com/dduxyvs3x/image/upload/v1741704914/IMG-20250304-WA0048_-_Digital_Marketing_fl7ire.jpg"
                 alt="شعار سيوه بالم"
                 width={40}
                 height={40}
@@ -270,7 +270,7 @@ export default function Home() {
             <div className="w-full md:w-1/2">
               <div className="relative h-[400px] md:h-[600px] rounded-3xl overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="https://res.cloudinary.com/dduxyvs3x/image/upload/v1741705116/IMG-20250115-WA0158_-_Digital_Marketing_amng6q.jpg"
                   alt="مزارع سيوه بالم"
                   fill
                   className="object-cover"
