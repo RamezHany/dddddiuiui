@@ -210,6 +210,22 @@ export default function Home() {
 
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_30%,_rgba(0,0,0,0.4)_100%)]" />
 
+            {/* أزرار التنقل */}
+            <button
+              onClick={() => setActiveProduct((prev) => (prev === 0 ? products.length - 1 : prev - 1))}
+              className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/20 hover:bg-white/30 rounded-full p-2 backdrop-blur-sm transition-all"
+              aria-label="المنتج السابق"
+            >
+              <ChevronDown className="w-6 h-6 text-white rotate-90" />
+            </button>
+            <button
+              onClick={() => setActiveProduct((prev) => (prev === products.length - 1 ? 0 : prev + 1))}
+              className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/20 hover:bg-white/30 rounded-full p-2 backdrop-blur-sm transition-all"
+              aria-label="المنتج التالي"
+            >
+              <ChevronDown className="w-6 h-6 text-white -rotate-90" />
+            </button>
+
             <div className="relative h-full flex flex-col md:flex-row">
               {/* صورة المنتج */}
               <div className="w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center p-8">
@@ -243,21 +259,6 @@ export default function Home() {
                   <Button className="bg-white text-amber-900 hover:bg-amber-100 text-lg py-6 px-8">اطلب الآن</Button>
                 </motion.div>
               </div>
-            </div>
-
-            {/* أزرار التنقل بين المنتجات */}
-            <div className="absolute bottom-8 left-0 right-0 flex justify-center gap-4">
-              {products.map((product, index) => (
-                <button
-                  key={product.id}
-                  onClick={() => setActiveProduct(index)}
-                  className={cn(
-                    "w-3 h-3 rounded-full transition-all",
-                    activeProduct === index ? "bg-white w-12" : "bg-white/50 hover:bg-white/80",
-                  )}
-                  aria-label={`عرض ${product.name}`}
-                />
-              ))}
             </div>
           </div>
         </div>
